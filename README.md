@@ -60,6 +60,7 @@ I built this as a small personal project. I previously worked on a leave-applica
 ![Review and confirm](screenshots/04-confirm.png)
 
 ![Submission success](screenshots/05-success.png)
+<img width="766" height="1139" alt="Screenshot (192)" src="https://github.com/user-attachments/assets/8a0b61b0-b26d-4eda-8c03-ed440cab136f" />
 
 ---
 
@@ -91,9 +92,9 @@ For this version I focused on getting one flow working from start to finish (Cas
 
 ---
 
-## A Note on the Demo
+## Conversation Flow & UI Demonstration
 
-I was not able to publish a live web demo. The Integrations page in the Dialogflow ES console showed a permission error (`dialogflow.agents.get`) every time I opened it, even with a new agent and different accounts. Other people have reported the same error, so it looks like an issue on Google's side. The screenshots above were taken from the Dialogflow test console. I will add a web demo once the integration page works.
+To showcase the end-to-end functionality of the agent, I have attached screenshots from the Dialogflow Messenger interface below. These demonstrate the complete user interaction flow, including multi-turn entity extraction, half-day state tracking, dynamic duration calculations, and request tracking ID confirmations.
 
 ---
 
@@ -101,4 +102,3 @@ I was not able to publish a live web demo. The Integrations page in the Dialogfl
 
 - This is a prototype and is not connected to a real HR system or database.
 - The tracking number in the example is a sample value.
-- Only
