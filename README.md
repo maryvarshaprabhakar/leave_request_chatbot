@@ -37,15 +37,15 @@ I built this as a small personal project. I previously worked on a leave-applica
 | 1 | User | I want to apply leave |
 | 2 | Bot | Sure! I can help you submit a leave request. Which type of leave would you like to apply for? (Casual Leave / Sick Leave / Earned Leave) |
 | 3 | User | Casual Leave |
-| 4 | Bot | Got it, Casual Leave. When would you like to start your leave? (Today / Tomorrow) |
+| 4 | Bot | Got it, casual leave . When would you like to start your leave? You can choose a quick option below or type a date (e.g., YYYY-MM-DD or 24th Oct) (Today / Tomorrow) |
 | 5 | User | 12-Jan |
-| 6 | Bot | Great. And what is the last day of your leave? (Same day / Select end date) |
+| 6 | Bot | Great. And what is the last day of your leave? (Same day/ Select end date) |
 | 7 | User | 14-Jan |
-| 8 | Bot | Please specify the half-day options for the start date (Jan 12) and the end date (Jan 14) |
+| 8 | Bot |Noted. To calculate the exact duration, please specify the half-day options: Start Date: First half or second half End Date: First half or second half
 | 9 | User | First half for start, second half for end |
-| 10 | Bot | Review: Casual Leave, Jan 12, 2027 to Jan 14, 2027 (3.0 days). Confirm and submit? (Yes / No) |
+| 10 | Bot | Perfect. Please review your leave application before submission: Type: Casual Leave Duration: 12 Jan – 14 Jan (3.0 Days) Would you like to confirm and submit this request? (Yes / No) |
 | 11 | User | Yes |
-| 12 | Bot | Your leave request has been submitted to your manager for approval. Tracking Number: LR-93724 |
+| 12 | Bot | Success! Your leave request has been submitted to your manager for approval. Tracking Number: LR-93581 You can use this tracking number anytime to check your status.|
 
 ---
 
