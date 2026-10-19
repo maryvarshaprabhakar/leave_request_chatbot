@@ -49,19 +49,15 @@ I built this as a small personal project. I previously worked on a leave-applica
 
 ---
 
-## Screenshots
-
-![Leave type selection](screenshots/01-leave-type.png)
-
-![Date selection](screenshots/02-dates.png)
-
-![Half day selection](screenshots/03-half-day.png)
-
-![Review and confirm](screenshots/04-confirm.png)
-
-![Submission success](screenshots/05-success.png)
-<img width="766" height="1139" alt="Screenshot (192)" src="https://github.com/user-attachments/assets/8a0b61b0-b26d-4eda-8c03-ed440cab136f" />
-
+## Conversation Flow & UI Demonstration
+To showcase the end-to-end functionality of the agent, I have attached screenshots from the Dialogflow Messenger interface below. These demonstrate the complete user interaction flow, including multi-turn entity extraction, half-day state tracking, dynamic duration calculations, and request tracking ID confirmations.
+<p align="center">
+<img width="300" height="539" alt="Leave_type_selection" src="https://github.com/user-attachments/assets/8a0b61b0-b26d-4eda-8c03-ed440cab136f" />
+<img width="300" height="539" alt="Start_date_selection" src="https://github.com/user-attachments/assets/5b930882-94cb-4921-bfd9-beb4d134c29f" />
+<br />
+<img width="300" height="539" alt="End_date_duration" src="https://github.com/user-attachments/assets/60b55343-1166-45c4-8ae5-0172096935d8" />
+<img width="300" height="539" alt="Success_submission" src="https://github.com/user-attachments/assets/edce2f38-ecb1-4ba5-95e4-a6cc257b770c" />
+</p>
 ---
 
 ## Leave Types
@@ -89,12 +85,6 @@ For this version I focused on getting one flow working from start to finish (Cas
 2. The bot collects the leave type, start date, end date and half-day choices as parameters, and asks again if something is missing.
 3. A confirmation step shows a summary of everything the user entered.
 4. On "Yes", the bot sends the success message with the tracking number. On "No", the request is cancelled.
-
----
-
-## Conversation Flow & UI Demonstration
-
-To showcase the end-to-end functionality of the agent, I have attached screenshots from the Dialogflow Messenger interface below. These demonstrate the complete user interaction flow, including multi-turn entity extraction, half-day state tracking, dynamic duration calculations, and request tracking ID confirmations.
 
 ---
 
