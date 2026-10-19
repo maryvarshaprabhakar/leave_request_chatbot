@@ -87,7 +87,13 @@ For this version I focused on getting one flow working from start to finish (Cas
 4. On "Yes", the bot sends the success message with the tracking number. On "No", the request is cancelled.
 
 ---
+## System Scope & Architecture
 
+This project focuses on **Conversational UX Design, Intent Architecture, and NLU Parameter Extraction** within Google Dialogflow ES. 
+
+- **Frontend / Agent Logic:** Fully implemented with multi-turn context parameters, slot-filling, and state management.
+- **Backend Fulfillment (Production Blueprint):** In a production environment, Dialogflow Webhook Fulfillment can be connected to a REST API (e.g., Python FastAPI / Node.js) to perform live database CRUD operations (e.g., logging leave requests into an HR database like PostgreSQL or SAP HR). For this portfolio prototype, responses are handled dynamically through Dialogflow's internal context management and custom JSON payloads.
+---
 ## Known Limitations
 
 - This is a prototype and is not connected to a real HR system or database.
